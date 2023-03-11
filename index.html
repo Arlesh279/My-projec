@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>"Taste" coffee shop</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/Logo.png" alt="Сорян нету фотки" class="logo">
+        <div class="menu">
+            <ul class="nav">
+                <li>
+                    <a class="links" href="#product">ТОВАРЫ</a>
+                </li>
+                <li>
+                    <a class="links" href="#support">ПОДДЕРЖКА</a>
+                </li>
+                <li>
+                    <a class="links" href="#order">ЗАКАЗ</a>
+                </li>
+            </ul>
+            <div class="line "></div>
+        </div>
+    </header>
+    <main>
+        <img class="menuImg " src="images/desert.png ">
+        <img class="menuImg " src="images/desert1.png ">
+    </main>
+    <section class="second " id="product">
+        <h3>
+            <em> Примеры товаров нашей компании</em>
+        </h3>
+        <div class="container ">
+            <article>
+                <img src="images/coffeeOrder.png " alt=" ">
+                <h3>
+                    <em>Кофе на заказ</em>
+                </h3>
+                <input class="button " type="button" value="Заказать ">
+            </article>
+            <article>
+                <img src="images/desertOrder.png " alt=" ">
+                <h3>
+                    <em>Десерт на заказ</em>
+                </h3>
+                <input class="button " type="button" value="Заказать ">
+            </article>
+        </div>
+
+    </section>
+    <section class="form " id="order">
+        <div class="form_background ">
+            <h2 class="form_h2">Заполните форму</h2>
+            <form action=" ">
+                <input type="text " placeholder="ваше имя " required>
+                <div class="select">
+                    <div></div>
+                    <select name=" " id=" ">
+                        <option value=" " selected> Тип Товара </option>
+                        <option value=" ">Кофе</option>
+                        <option value=" ">Десерт</option>
+                    </select>
+                    <img src="images/Arrow 1.png ">
+                </div>
+                <div class="number">
+                    <div class="number__div">
+                        <h2 class="number--div__h2">+7</h2>
+                        <div>
+                            <img class="number--div__border" src="images/Arrow 1.png ">
+                        </div>
+                    </div>
+                    <input class="input__button" type="tel" placeholder="номер телефона " required>
+                    <div></div>
+                </div>
+                <button class="form__button" type=" submit ">Отправить</button>
+            </form>
+        </div>
+    </section>
+    <footer id="support ">
+        <div class="footer-container ">
+            <p>Copyright &copy; 2020</p>
+        </div>
+    </footer>
+    <script src="script.js " async defer></script>
+</body>
+
+</html>
